@@ -3,7 +3,7 @@ import unsplash from "../api/unsplash";
 import { Header, Icon, Dimmer, Loader, Segment } from "semantic-ui-react";
 
 import Input from "./Input";
-import ModalEmpty from './modalEmpty';
+// import ModalEmpty from './modalEmpty';
 
 class ImageRenderer extends Component {
   state = {
@@ -55,7 +55,7 @@ class ImageRenderer extends Component {
           {this.state.imageUrl && (
             <img className="bg-big" src={this.state.imageUrl} alt="bg-big" />
           )}
-          <ModalEmpty />
+          {/* <ModalEmpty /> */}
         </div>
       </Segment>
     );
