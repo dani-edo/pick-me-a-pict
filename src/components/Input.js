@@ -11,7 +11,7 @@ class Input extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div className="ui icon input absolute-center">
+        <div className="ui icon input">
           <input
             type="text"
             placeholder="Search..."
