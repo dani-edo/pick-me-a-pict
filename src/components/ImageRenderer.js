@@ -20,8 +20,9 @@ class ImageRenderer extends Component {
           query: e
         }
       });
+      const randomNumber = Math.floor(Math.random() * 10)
       this.setState({
-        imageUrl: response.data.results[0].urls.regular,
+        imageUrl: response.data.results[randomNumber].urls.regular,
         loading: false
       });
     } catch (error) {
