@@ -1,16 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# pick-me-a-pict
 
-## Available Scripts
+A simple application for my training on input handling and state management in React Js, also API request with Axios (get Image API from Unsplash)
 
-In the project directory, you can run:
+## Depedencies
+```
+"@testing-library/jest-dom": "^4.2.4",
+"@testing-library/react": "^9.3.2",
+"@testing-library/user-event": "^7.1.2",
+"axios": "^0.19.2",
+"react": "^16.12.0",
+"react-dom": "^16.12.0",
+"react-scripts": "3.3.1",
+"semantic-ui-react": "^0.88.2"
+ ```
+Or you can check on package.json file
 
-### `yarn start`
+## Features
+Search image by name (english language) <br />
+Loader
+Error when response undefined
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build Setup
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+``` bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run test
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+```
+
 
 ## App Result
-https://pick-me-a-pict.netlify.com/
+You can see this app result instantly at this page : https://pick-me-a-pict.netlify.com/
