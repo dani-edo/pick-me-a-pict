@@ -1,6 +1,8 @@
 # pick-me-a-pict
 
-A simple application for my training on input handling and state management in React Js, also API request with Axios (get Image API from Unsplash)
+Simple application for my learning about handling input, state management in React Js, also API requests with Axios (get the Image API from Unsplash)
+
+With this app, you can search for the image that you want, by inputting words (in English) at the input form, then press enter. And gotcha!. See the result
 
 ## Depedencies
 ```
